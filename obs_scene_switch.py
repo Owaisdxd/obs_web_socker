@@ -72,8 +72,8 @@ port = 4455
 #     password = file.read().strip()
 
 logging.basicConfig(level=logging.DEBUG)
-
-client = obsws(host, port, ateuQosb8hn9zkZR)
+password = ateuQosb8hn9zkZR
+client = obsws(host, port, password)
 print("Connecting to the OBS server")
 time.sleep(3)
 try:
