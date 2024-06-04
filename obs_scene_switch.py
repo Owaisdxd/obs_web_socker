@@ -68,11 +68,11 @@ def switching_scenes(client, scene):
 host = "192.168.56.1"
 port = 4455
 #please provide  the path to password file for obs server
-# with open('.\password', 'r') as file:
-#     password = file.read().strip()
+with open('/app/password', 'r') as file:
+    password = file.read().strip()
 
-logging.basicConfig(level=logging.DEBUG)
-password = ateuQosb8hn9zkZR
+ logging.basicConfig(level=logging.DEBUG)
+# password = ateuQosb8hn9zkZR
 client = obsws(host, port, password)
 print("Connecting to the OBS server")
 time.sleep(3)
