@@ -4,4 +4,4 @@ COPY . /app
 RUN python --version
 RUN pip install -r requirement.txt
 RUN pip list 
-CMD ["python","obs_scene_switch.py"]
+CMD ["python","/app/obs_scene_switch.py"]
