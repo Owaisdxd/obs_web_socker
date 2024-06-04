@@ -68,7 +68,7 @@ def switching_scenes(client, scene):
 host = "192.168.56.1"
 port = 4455
 #please provide  the path to password file for obs server
-with open('./password', 'r') as file:
+with open('.\password', 'r') as file:
     password = file.read().strip()
 
 logging.basicConfig(level=logging.DEBUG)
