@@ -3,3 +3,7 @@ websockets == 10.4
 esdk-obs-python == 3.24.3
 obs-websocket-py == 1.0
 obsws-python == 1.7.0
+#scikit-image 
+#numpy matplotlib
+#ultralytics
+#opencv-python
